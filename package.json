@@ -1,0 +1,33 @@
+{
+  "name": "@rcva/monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "React Class Variance Authority Monorepo 🧬",
+  "keywords": [
+    "React Class Variance Authority Monorepo",
+    "react-class-variance-authority-monorepo",
+    "classes",
+    "classname",
+    "classnames",
+    "css",
+    "rcva",
+    "stitches",
+    "vanilla-extract",
+    "variants",
+    "windstitch"
+  ],
+  "homepage": "https://github.com/jlarmstrongiv/rcva#readme",
+  "bugs": "https://github.com/jlarmstrongiv/rcva/issues",
+  "repository": "https://github.com/jlarmstrongiv/rcva.git",
+  "license": "MIT",
+  "author": "John L. Armstrong IV",
+  "type": "module",
+  "scripts": {},
+  "devDependencies": {
+    "@changesets/cli": "^2.26.1"
+  },
+  "packageManager": "pnpm@8.1.0",
+  "engines": {
+    "node": ">=16.15.0"
+  }
+}

@@ -1,0 +1,33 @@
+name: Publish to NPM
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout git repository 🛒
+        uses: actions/checkout@v2
+
+      - name: Setup Node ⚙️
+        uses: actions/setup-node@v2
+        with:
+          node-version: "16.15.1"
+
+      - name: Install dependencies 🔧
+        run: |
+          npm install -g pnpm
+          pnpm install --frozen-lockfile
+
+      - name: Build package 🏗️
+        working-directory: ./packages/core
+        run: npm run build
+
+      - name: Publish package on NPM 📦
+        working-directory: ./packages/core
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

@@ -1,0 +1,60 @@
+{
+  "name": "rcva",
+  "version": "1.0.0",
+  "private": false,
+  "description": "React Class Variance Authority 🧬",
+  "keywords": [
+    "React Class Variance Authority",
+    "react-class-variance-authority",
+    "classes",
+    "classname",
+    "classnames",
+    "css",
+    "rcva",
+    "stitches",
+    "vanilla-extract",
+    "variants",
+    "windstitch"
+  ],
+  "homepage": "https://github.com/jlarmstrongiv/blob/main/packages/core/README.md",
+  "bugs": "https://github.com/jlarmstrongiv/rcva/issues",
+  "repository": "https://github.com/jlarmstrongiv/rcva.git",
+  "license": "MIT",
+  "author": "John L. Armstrong IV",
+  "sideEffects": false,
+  "type": "module",
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "source": "src/index.tsx",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup-node"
+  },
+  "dependencies": {
+    "@leafygreen-ui/polymorphic": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.0.31",
+    "@types/react-dom": "18.0.11",
+    "rimraf": "^4.4.1",
+    "tsup": "^6.7.0",
+    "typescript": "^4.9.5"
+  },
+  "peerDependencies": {
+    "class-variance-authority": "^0.4.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "tailwind-merge": "^1.11.0"
+  }
+}
