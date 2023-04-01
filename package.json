@@ -1,6 +1,6 @@
 {
   "name": "@rcva/monorepo",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "private": true,
   "description": "React Class Variance Authority Monorepo 🧬",
   "keywords": [

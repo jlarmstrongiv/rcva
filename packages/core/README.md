@@ -26,7 +26,7 @@
 npm i rcva class-variance-authority tailwind-merge
 ```
 
-Please note that `rcva` uses [`class-variance-authority`](https://www.npmjs.com/package/class-variance-authority) and [`tailwind-merge`](https://www.npmjs.com/package/tailwind-merge) internally, so they are required peer dependencies.
+Please note that [`rcva`](https://www.npmjs.com/package/rcva) uses [`class-variance-authority`](https://www.npmjs.com/package/class-variance-authority) and [`tailwind-merge`](https://www.npmjs.com/package/tailwind-merge) internally, so they are required peer dependencies.
 
 ## Getting Started
 
