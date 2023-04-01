@@ -23,10 +23,26 @@
 ## Installation
 
 ```
-npm i rcva class-variance-authority tailwind-merge
+npm i rcva
 ```
 
-Please note that [`rcva`](https://www.npmjs.com/package/rcva) uses [`class-variance-authority`](https://www.npmjs.com/package/class-variance-authority) and [`tailwind-merge`](https://www.npmjs.com/package/tailwind-merge) internally, so they are required peer dependencies.
+### Peer Dependencies
+
+- ✅ NPM 7 and higher automatically installs peer dependencies
+- ✅ PNPM 7 and higher automatically installs peer dependencies
+- ❌ Yarn will need a [separate](https://www.npmjs.com/package/install-peers) [package](https://www.npmjs.com/package/install-peerdeps) or you can manually install them into your project
+
+```
+class-variance-authority tailwind-merge @leafygreen-ui/polymorphic
+```
+
+Please note that [`rcva`](https://www.npmjs.com/package/rcva) uses:
+
+- [`class-variance-authority`](https://www.npmjs.com/package/class-variance-authority)
+- [`tailwind-merge`](https://www.npmjs.com/package/tailwind-merge)
+- [`@leafygreen-ui/polymorphic`](https://www.npmjs.com/package/@leafygreen-ui/polymorphic)
+
+While these packages are mainly used internally, you may build your own custom components for advanced use-cases. For that reason, they are listed as peer dependencies.
 
 ## Getting Started
 
@@ -88,7 +104,7 @@ export default function Home() {
 
 As `cva` does not yet offer a built-in method for Required Variants or Composing Components, neither do we.
 
-If the workarounds below do not solve your use-case, you are better off writing your own react component from scratch with `cva`.
+If the workarounds below do not solve your use-case, you are better off writing your own react component from scratch.
 
 #### Required Variants
 
