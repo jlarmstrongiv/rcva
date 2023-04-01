@@ -1,6 +1,6 @@
 {
   "name": "rcva",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "description": "React Class Variance Authority 🧬",
   "keywords": [
@@ -16,7 +16,7 @@
     "variants",
     "windstitch"
   ],
-  "homepage": "https://github.com/jlarmstrongiv/blob/main/packages/core/README.md",
+  "homepage": "https://github.com/jlarmstrongiv/rcva/blob/main/packages/core/README.md",
   "bugs": "https://github.com/jlarmstrongiv/rcva/issues",
   "repository": "https://github.com/jlarmstrongiv/rcva.git",
   "license": "MIT",
