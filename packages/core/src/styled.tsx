@@ -1,5 +1,8 @@
 import * as React from "react";
-import { Polymorphic } from "@leafygreen-ui/polymorphic";
+import {
+  Polymorphic,
+  usePolymorphicComponent,
+} from "@leafygreen-ui/polymorphic";
 import type {
   PolymorphicComponentType,
   PolymorphicAs,
@@ -8,12 +11,6 @@ import type { VariantProps } from "class-variance-authority";
 import { cva } from "class-variance-authority";
 import { twMerge } from "tailwind-merge";
 import { domElements } from "./domElements";
-
-function getPolymorphicComponent<T extends PolymorphicAs>(
-  as?: T
-): React.ElementType {
-  return as || "div";
-}
 
 interface PolymorphicProps {
   children?: React.ReactNode;
@@ -44,7 +41,7 @@ export const styledFunction: StyledFunction = (component: PolymorphicAs) => {
     const MyComponent = Polymorphic<
       PolymorphicProps & VariantProps<typeof componentFunction>
     >(({ as = component, children, ...rest }, forwardedRef) => {
-      const Component = getPolymorphicComponent(as);
+      const Component = usePolymorphicComponent(as);
 
       const { variants } = cvaParameters[1] ?? {};
 

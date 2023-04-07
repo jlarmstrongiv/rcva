@@ -11,8 +11,8 @@ importers:
   packages/core:
     dependencies:
       '@leafygreen-ui/polymorphic':
-        specifier: ^1.2.0
-        version: 1.2.0
+        specifier: ^1.3.0
+        version: 1.3.0
       class-variance-authority:
         specifier: '>= 0.5.1 < 1'
         version: 0.5.1(typescript@5.0.2)
@@ -2104,8 +2104,8 @@ packages:
     resolution: {integrity: sha512-dfLbk+PwWvFzSxwk3n5ySL0hfBog779o8h68wK/7/APo/7cgyWp5jcXockbxdk5kFRkbeXWm4Fbi9FrdN381sA==}
     dev: true
 
-  /@leafygreen-ui/polymorphic@1.2.0:
-    resolution: {integrity: sha512-PWNzW7Kfc1CU3qxAhIjR1K91oV2A0TkVAzvfChMYoMc9czv6DJBWUEbjcPzV7r9QHSCFDncaV1vyT/xoWGnlqA==}
+  /@leafygreen-ui/polymorphic@1.3.0:
+    resolution: {integrity: sha512-XTKbrevrOQHUp1gMP3/sqh92vYYGJ8cz5c7EiGCTJZIegrejwuxQe2lGxW2UEUJk2PpkZDvgPwkKmuqvEayu2Q==}
     dev: false
 
   /@manypkg/find-root@1.1.0:

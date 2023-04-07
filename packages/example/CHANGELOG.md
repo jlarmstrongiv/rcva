@@ -1,5 +1,12 @@
 # @rcva/example
 
+## 1.0.5
+
+### Patch Changes
+
+- Updated dependencies
+  - rcva@1.0.6
+
 ## 1.0.2
 
 ### Patch Changes
