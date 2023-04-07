@@ -1,0 +1,29 @@
+name: Publish to NPM
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout git repository 🛒
+        uses: actions/checkout@v3
+
+      - name: Setup Node ⚙️
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16.15.1"
+          registry-url: "https://registry.npmjs.org"
+
+      - name: Install dependencies 🔧
+        run: |
+          npm install -g pnpm
+          pnpm install --frozen-lockfile
+
+      - name: Build package 🏗️
+        working-directory: ./packages/core
+        run: npm run build
+
+      - name: Build example 🏗️
+        working-directory: ./packages/example
+        run: npm run build
