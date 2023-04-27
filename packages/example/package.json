@@ -1,6 +1,6 @@
 {
   "name": "@rcva/example",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "private": true,
   "license": "MIT",
   "scripts": {
@@ -27,7 +27,7 @@
     "@storybook/addon-essentials": "^7.0.0",
     "@storybook/addon-interactions": "^7.0.0",
     "@storybook/addon-links": "^7.0.0",
-    "@storybook/addon-styling": "^0.3.2",
+    "@storybook/addon-styling": "^1.0.0",
     "@storybook/blocks": "^7.0.0",
     "@storybook/nextjs": "^7.0.0",
     "@storybook/react": "^7.0.0",
