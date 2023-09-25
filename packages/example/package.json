@@ -1,6 +1,6 @@
 {
   "name": "@rcva/example",
-  "version": "1.0.109",
+  "version": "1.0.110",
   "private": true,
   "license": "MIT",
   "scripts": {
@@ -16,8 +16,8 @@
     "@types/react": "18.2.22",
     "@types/react-dom": "18.2.7",
     "eslint": "8.50.0",
-    "eslint-config-next": "13.5.2",
-    "next": "13.5.2",
+    "eslint-config-next": "13.5.3",
+    "next": "13.5.3",
     "rcva": "workspace:*",
     "react": "18.2.0",
     "react-dom": "18.2.0",
