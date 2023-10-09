@@ -1,6 +1,6 @@
 {
   "name": "@rcva/example",
-  "version": "1.0.122",
+  "version": "1.0.123",
   "private": true,
   "license": "MIT",
   "scripts": {
@@ -12,9 +12,9 @@
     "storybook": "storybook dev -p 6006"
   },
   "dependencies": {
-    "@types/node": "20.8.3",
-    "@types/react": "18.2.25",
-    "@types/react-dom": "18.2.11",
+    "@types/node": "20.8.4",
+    "@types/react": "18.2.27",
+    "@types/react-dom": "18.2.12",
     "eslint": "8.51.0",
     "eslint-config-next": "13.5.4",
     "next": "13.5.4",
