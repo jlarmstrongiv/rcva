@@ -1,6 +1,6 @@
 {
   "name": "@rcva/example",
-  "version": "1.0.150",
+  "version": "1.0.151",
   "private": true,
   "license": "MIT",
   "scripts": {
@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@types/node": "20.10.0",
-    "@types/react": "18.2.38",
+    "@types/react": "18.2.39",
     "@types/react-dom": "18.2.17",
     "eslint": "8.54.0",
     "eslint-config-next": "13.5.6",
