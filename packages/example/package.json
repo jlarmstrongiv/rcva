@@ -1,6 +1,6 @@
 {
   "name": "@rcva/example",
-  "version": "1.0.191",
+  "version": "1.0.192",
   "private": true,
   "license": "MIT",
   "scripts": {
@@ -33,7 +33,7 @@
     "@storybook/react": "^7.0.0",
     "@storybook/testing-library": "^0.2.0",
     "autoprefixer": "^10.4.14",
-    "eslint-plugin-storybook": "^0.6.11",
+    "eslint-plugin-storybook": "^0.8.0",
     "postcss": "^8.4.21",
     "postcss-loader": "^7.1.0",
     "storybook": "^7.0.0",
