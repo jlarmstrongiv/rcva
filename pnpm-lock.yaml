@@ -15,7 +15,7 @@ importers:
   packages/core:
     dependencies:
       '@leafygreen-ui/polymorphic':
-        specifier: ^1.3.0
+        specifier: ^1.3.0 || ^2.0.0
         version: 1.3.0
       class-variance-authority:
         specifier: '>= 0.5.1 < 1'
