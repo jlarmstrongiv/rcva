@@ -1,6 +1,6 @@
 {
   "name": "@rcva/example",
-  "version": "1.0.198",
+  "version": "1.0.199",
   "private": true,
   "license": "MIT",
   "scripts": {
@@ -21,7 +21,7 @@
     "rcva": "workspace:*",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "^5.0.0"
+    "typescript": "^6.0.0"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.0.0",
