@@ -27,7 +27,7 @@ importers:
         specifier: ^18.0.0
         version: 18.2.0(react@18.2.0)
       tailwind-merge:
-        specifier: ^1.11.0
+        specifier: ^1.11.0 || ^3.0.0
         version: 1.11.0
     devDependencies:
       '@types/react':
@@ -7784,6 +7784,7 @@ packages:
   /image-size@0.5.5:
     resolution: {integrity: sha512-6TDAlDPZxUFCv+fuOkIoXT/V/f3Qbq8e37p+YOiYrUv3v9cc3/6x78VdfPgFVaB9dZYeLUfKgHRebpkm/oP2VQ==}
     engines: {node: '>=0.10.0'}
+    deprecated: Please migrate to image-size@2.x
     hasBin: true
     requiresBuild: true
     dev: true
